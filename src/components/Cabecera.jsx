@@ -1,11 +1,12 @@
 import React from 'react'
 import '../styles/Cabecera.css'
-function Cabecera() {
+function Cabecera(props) {
     const titulo = 'Agenda/Topic'
     const numero = '1'
     const id = 'SAAS-0000'
+    const theme = 'cards' + props.theme
   return (
-    <div className='cabecera'>
+    <div className={theme}>
         <div className='numerito'>{numero} 
         </div>
         <div className='agenda'>{titulo} 

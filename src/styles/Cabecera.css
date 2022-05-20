@@ -1,15 +1,25 @@
-.cabecera{
+.cards{
     width: 364px;
     height: 67px;    
-    /* Red */
-    background: #EB5757;
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    
 }
+.red{
+    background: #EB5757;
+}
+.purple{
+    background: #9B51E0;
+}
+.gray{
+    background: #BDBDBD;
+
+}
+
+
 .numerito{
     
 box-sizing: border-box;
@@ -46,7 +56,7 @@ color: #FFFFFF;
 
 }
 .id{
-    width: 38px;
+    width: 46px;
     height: 19px;
     
     font-family: 'Lato';
@@ -61,7 +71,7 @@ color: #FFFFFF;
     /* Inside auto layout */
     
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
 }
 .vector{
