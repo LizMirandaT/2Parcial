@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Cabecera.css'
-import { PiePagina } from './PiePagina'
 function Cabecera() {
     const titulo = 'Agenda/Topic'
     const numero = '1'
@@ -15,7 +14,6 @@ function Cabecera() {
         </div>
         <div className='vector'> 
         </div>
-        <PiePagina></PiePagina>
     </div>
     )
 }

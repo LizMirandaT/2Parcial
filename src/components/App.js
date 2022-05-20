@@ -1,10 +1,10 @@
 import '../styles/App.css';
-import {Cabecera} from './Cabecera';
+import { Cards } from './Cards';
 
 function App() {
   return (
     <>
-      <Cabecera/>
+      <Cards/>
     </>
   );
 }
