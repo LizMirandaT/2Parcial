@@ -1,0 +1,72 @@
+.piedepagina{
+    position: absolute;
+    width: 330px;
+    height: 0px;
+    left: 18px;
+    top: 0px;
+    
+    /* Border */
+    
+    border: 1px solid #DBDBDB;
+}
+.description{
+    width: 321px;
+height: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Text Black */
+
+color: #2F2F2F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.last{
+    
+position: absolute;
+width: 76px;
+height: 16px;
+left: 19px;
+top: 9px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+/* Light Text */
+
+color: #888888;
+}
+.date{
+    position: absolute;
+width: 58px;
+height: 16px;
+right: 17px;
+top: 9px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: right;
+
+/* Light Text */
+
+color: #888888;
+}
